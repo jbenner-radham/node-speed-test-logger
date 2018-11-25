@@ -1,0 +1,47 @@
+{
+  "name": "speed-test-logger",
+  "version": "0.0.0",
+  "description": "Perform a speed test on your internet connection and log the results.",
+  "main": "lib/index.js",
+  "bin": {
+    "speed-test-logger": "cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "lint": "eslint --fix {bin,lib}",
+    "make:readme": "readme-md > README.md",
+    "start": "speed-test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/node-speed-test-logger.git"
+  },
+  "keywords": [
+    "speed",
+    "test",
+    "logger",
+    "cli"
+  ],
+  "author": "James Benner <james.benner@gmail.com> (http://www.jamesbenner.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/node-speed-test-logger/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/node-speed-test-logger#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "readme-md-cli": "^0.11.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "execa": "^1.0.0",
+    "make-dir": "^1.3.0",
+    "speed-test": "^2.0.0"
+  }
+}

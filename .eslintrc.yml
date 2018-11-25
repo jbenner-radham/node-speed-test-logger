@@ -1,0 +1,16 @@
+---
+extends: eslint:recommended
+env:
+  es6: true
+  jasmine: true
+  node: true
+parserOptions:
+  ecmaVersion: 2018
+rules:
+  eol-last: [error, always]
+  indent: [error, 4]
+  object-curly-spacing: [error, always]
+  no-console: off
+  no-var: error
+  prefer-const: error
+  semi: [error, always]
