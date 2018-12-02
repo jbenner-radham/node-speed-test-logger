@@ -13,8 +13,8 @@ Perform a speed test on your internet connection and log the results.
 $ yarn add speed-test-logger # Or alternatively: `npm install speed-test-logger`
 ```
 
-Testing
--------
+~~Testing~~
+-----------
 ```sh
 $ yarn test # Or alternatively: `npm test`
 ```
