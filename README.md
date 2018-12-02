@@ -19,6 +19,16 @@ $ yarn add speed-test-logger # Or alternatively: `npm install speed-test-logger`
 $ yarn test # Or alternatively: `npm test`
 ```
 
+To-Do
+-----
+- [ ] Write tests.
+- [ ] Publish on npm.
+- [ ] Add "setup" section to readme.
+
+See Also
+--------
+- [speed-test](https://github.com/sindresorhus/speed-test#readme)
+
 License
 -------
 The MIT License (Expat). See the [license file](LICENSE) for details.
