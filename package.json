@@ -4,7 +4,7 @@
   "description": "Perform a speed test on your internet connection and log the results.",
   "main": "lib/index.js",
   "bin": {
-    "speed-test-logger": "cli.js"
+    "speed-test-logger": "bin/cli.js"
   },
   "directories": {
     "lib": "lib"
